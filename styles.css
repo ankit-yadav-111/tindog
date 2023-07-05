@@ -1,0 +1,213 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #F5C7A9;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #411530;
+  font-weight: bold;
+}
+/* .price-heading{
+  font-size: 3rem;
+} */
+
+.testimonial-text {
+  font-family: 'Square Peg', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 8%;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  /* font-family:"Montserrat-Light"; */
+}
+
+/*******************EXTRA **********************8*/
+.logo {
+  display: inline-block;
+  height: 10rem;
+  width: 12rem;
+  margin-top: 0;
+}
+
+.nav-link:hover {
+  color: #411530;
+}
+
+.container-fluid {
+  padding-top: 0;
+}
+
+/* download btton */
+.download-button {
+  margin: 7% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+   margin-left: 100px;
+  width: 60%;
+
+  transform: rotate(25deg);
+position: relative;
+}
+
+@media(min-width:300px) and (max-width:991.50px)
+{
+  .title-image{
+     position:static;
+     transform:rotate(0deg);
+     margin-left:30px;
+     padding-top: 40px;
+     text-align: center;
+     }
+    /* #title{
+     text-align: center;
+    } */
+
+
+ .nav-link{
+   text-align: right;
+ }
+}
+
+
+#features {
+  padding: 7% 14%;
+  background-color: #fff;
+  position:relative;
+
+
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #D1512D;
+  margin-bottom: 1rem;
+}
+
+/********** .icon:hover{
+          color: #D1512D;
+        }*************/
+/*********** testimonials ***********/
+#testimonials {
+  background-color: #F5C7A9;
+  text-align: center;
+  color: #411530;
+
+  /* height:600px */
+}
+
+.testimonial-pic {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  /* this padding was before in testiomonial section tat was making slide  buttons close  */
+}
+
+#press {
+  background-color: #F5C7A9;
+  padding: 5%;
+  text-align: center;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px 20px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+
+}
+
+.price-button {
+  width: 100%;
+  background-color: black;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+  /* background-color: #1D5C63; */
+}
+
+
+.card-header {
+  background-color:#1D5C63;
+}
+
+
+/*********this is how you can implement hover on class******/
+
+.card-body:hover {
+  font-size: 150%;
+  background-color: #EDE6DB;
+}
+
+ /* *************cta call to action************* */
+#cta{
+  background-color:#F5C7A9;
+  padding: 8% 15%;
+  text-align:center;
+  color:#fff;
+}
+
+/* ********footer****** */
+
+#footer{
+  text-align: center;
+  padding:7% 12% ;
+}
+.footer-logo{
+  padding:0 8px;
+
+}
